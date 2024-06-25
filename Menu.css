@@ -1,0 +1,49 @@
+:root {
+    --ChileGuajillo: #670D05;
+    --PimientoMorronNaranja: #CA1F03;
+    --NaranjaHabanero: #DE7607;
+    --Mostaza: #FFAB2E;
+    --Pepinillo: #9D9A27;
+    --Jalapeno: #495D18;
+    --Espinaca: #1C2C05;
+    --grisesito: #EDEFF6;
+}
+
+html {
+    background-color: var(--grisesito);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: var(--Mostaza);
+    min-width: 200px;
+}
+
+.dropdown-child a {
+    color: var(--PimientoMorronNaranja);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+#main-header {
+    background: var(--Jalapeno);
+    color: var(--Pepinillo);
+    height: 80px;
+}
+
+#main-header a {
+    color: var(--Pepinillo);
+}
+h1{
+    color: var(--Pepinillo)
+}
