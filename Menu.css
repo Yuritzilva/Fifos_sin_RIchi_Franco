@@ -13,15 +13,23 @@ html {
     background-color: var(--grisesito);
 }
 
+.Menu_G {
+    border-style: solid;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
+    border-style: solid;
+    margin: 3px;
 }
 
 .dropdown-child {
     display: none;
     background-color: var(--Mostaza);
     min-width: 200px;
+    border-style: solid;
+    margin: 3px;
 }
 
 .dropdown-child a {
