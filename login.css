@@ -1,0 +1,101 @@
+/*
+    PAGINA WEB POR EQUIPOS
+    MATERIA: PORGRAMACION CONCURRENTE
+    GRUPO: ISW-25
+*/
+:root
+{
+    --ChileGuajillo: #670D05;
+    --PimientoMorronNaranja: #CA1F03;
+    --NaranjaHabanero: #DE7607;
+    --Mostaza: #FFAB2E;
+    --Pepinillo: #9D9A27;
+    --Jalapeno: #495D18;
+    --Espinaca: #1C2C05;
+    --grisesito: #EDEFF6;
+}
+/*
+html
+{
+    background-color: var(--Espinaca);
+}
+*/
+
+form {
+    background-color: var(--grisesito);
+    border: 3px solid var(--Espinaca);
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    background-color: var(--Mostaza);
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid var(--Mostaza);
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: var(--Espinaca);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: var(--ChileGuajillo);
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+    width: 20%;
+    border-radius: 25%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    width: auto;
+    background-color: var(--Pepinillo);
+    float: right;
+    border-radius: 2%;
+    padding-top: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
