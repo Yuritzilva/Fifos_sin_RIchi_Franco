@@ -40,36 +40,39 @@ header
     background-color: var(--grisesito);
     width: 100%;
     height: 15vh;
-    display: flex;
+
+
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    font-size: 400%; /*Aumentar el tamaño de la fuente*/
+    display: flex;
+
 }
+
 
 /*Esto es para todo el formato de registro*/
 form 
 {
     background-color: rgba(255, 255, 255, 0.7);
-    width: 55%;
+    width: 50%;
     height: 100%;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2%;
-    font-size: 300%;
+
+    font-size: 50%;
+    border: solid black 3px;
 }
 
-.login_img /*Este es el apartado para la imagen*/
+
+
+.imgcontainer /*Este es el apartado para la imagen*/
 {
-    height: 20%;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+
+
+
 
 }
 
@@ -80,24 +83,37 @@ form
 
 .login_form /*Apartado de el resto del forms que*/
 {
-    height: 70%;
-    width: 95%;
+    height: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: stretch;
     font-size: 130%;
     gap: 2%;
 }
 
+.select_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 input /*BARRAS DONDE SE LLENA CON INFO*/ 
 {
-    height: 50px;
-    width: 90%;
+    height: 10px;
+    width: 70%;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
     align-self: center;
+}
+
+
+label{
+    text-align: center;
+    font-size: 15px;
 }
 #button
 {
